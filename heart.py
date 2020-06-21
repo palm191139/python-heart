@@ -11,7 +11,7 @@ print("\033[31m")
 def heart(itp = 0):
     # size 53 * 23
     resx = -0.05
-    resy = -0.1
+    resy = -0.15
     s = -1.3
     for y in np.arange(-s, s, resy):
         print(" " * itp, end = "")
